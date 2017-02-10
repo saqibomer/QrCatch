@@ -21,18 +21,21 @@ QR code or Quick Response)code is a kind of 2d bar code which can be used to tra
 ## Usage
 Using QrCatcher is very simple. 
 
-1. Add `QRCatcher.Swift` in your project. 
-2. In your `viewController` conform to `QrCatchedCodeDelegate` delegate as
+* Add `QRCatcher.Swift` in your project. 
+* In your `viewController` conform to `QrCatchedCodeDelegate` delegate as
 
-`class ViewController: UIViewController, QrCatchedCodeDelegate {`
-3. Create Instance of `QrCatch`
+   `class ViewController: UIViewController, QrCatchedCodeDelegate {`
+   
+* Create Instance of `QrCatch`
 
-`let qrCatch = QRCatcher()`
-4. Assign Delegate in your `viewController`
+   `let qrCatch = QRCatcher()`
+   
+* Assign Delegate in your `viewController`
 
-`qrCatch.delegate = self`
-5. Add Delegate Method
+   `qrCatch.delegate = self`
+   
+* Add Delegate Method
 
-`func fetchecodedString(code: String){`
-  `print(code)`
-`}`
+  `func fetchecodedString(code: String){`
+    `print(code)`
+  `}` 
