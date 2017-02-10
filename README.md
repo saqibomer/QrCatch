@@ -23,12 +23,16 @@ Using QrCatcher is very simple.
 
 1. Add `QRCatcher.Swift` in your project. 
 2. In your `viewController` conform to `QrCatchedCodeDelegate` delegate as
-..`class ViewController: UIViewController, QrCatchedCodeDelegate {`
+
+`class ViewController: UIViewController, QrCatchedCodeDelegate {`
 3. Create Instance of `QrCatch`
-..`let qrCatch = QRCatcher()`
+
+`let qrCatch = QRCatcher()`
 4. Assign Delegate in your `viewController`
-..`qrCatch.delegate = self`
+
+`qrCatch.delegate = self`
 5. Add Delegate Method
-..`func fetchecodedString(code: String){`
-....`print(code)`
-..`}`
+
+`func fetchecodedString(code: String){`
+  `print(code)`
+`}`
