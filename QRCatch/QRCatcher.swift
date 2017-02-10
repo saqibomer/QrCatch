@@ -122,6 +122,7 @@ class QRCatcher: NSObject, AVCaptureMetadataOutputObjectsDelegate {
         }
     }
     
+    
     // MARK: - AVCaptureMetadataOutputObjectsDelegate Methods
     
     func captureOutput(_ captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [Any]!, from connection: AVCaptureConnection!) {
