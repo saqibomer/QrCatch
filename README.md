@@ -13,7 +13,7 @@ QR code or Quick Response)code is a kind of 2d bar code which can be used to tra
 
 
 ## Demo
-[Imgur](http://i.imgur.com/bmm3dXP.gifv)
+[View Demo](http://i.imgur.com/bmm3dXP.gifv)
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/AUjW0"><a href="//imgur.com/AUjW0"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
